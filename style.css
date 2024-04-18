@@ -1,0 +1,157 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: #264ECA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   flex-direction: column    ;
+}
+html{
+height: 100%;
+}
+.img1{
+width: 100px;
+margin: 50px;
+}
+.buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+gap: 20px ;
+position: relative;
+}
+.buttons input{
+width: 270px;
+padding: 15px 10px;
+font-family: 'Montserrat';
+color: white;
+background-color: #264ECA;
+border: 1px solid white;
+border-radius: 3px;
+font-size: 15px;
+cursor: pointer;
+position: relative;
+}
+
+.user{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+
+.username{
+position: absolute;
+align-items:center;
+display: flex;
+justify-content: center;
+top: 13px;
+left: 10px;
+width: 20px;
+height: 20px;
+}
+.user span{
+display: flex;
+margin-right: 100px;
+}
+
+.pass{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  }
+  
+  .password{
+  position: absolute;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  
+  top: 84px;
+  left: 10px;
+  
+  width: 20px;
+  height: 20px;
+  }
+  .pass span{
+  display: flex;
+  margin-right: 100px;
+
+  }
+
+
+
+
+.btn{
+  width: 270px;
+  padding: 15px 10px;
+  font-family: 'Montserrat';
+  color: #264ECA;
+  background-color: #fff;
+border: none;
+margin: 47px;
+font-weight: 900;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+ box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.3)
+
+}
+
+.for{
+display: flex;
+left: 51.4%;
+margin-top: 390px;
+position: absolute;
+font-family: 'Montserrat';
+font-weight: 900;
+color: white;
+cursor: pointer;
+}
+input::placeholder{
+color: white;
+display: flex;
+margin-right: 100px;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */ 
+
+
+.img2{
+  
+    position: absolute;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    
+    top: 84px;
+    left: 237px;
+    cursor: pointer;
+    width: 23px;
+    
+   
+}
